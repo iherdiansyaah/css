@@ -1,0 +1,82 @@
+/*
+Blogger Template Style
+Name: The Writer
+Original: Thesis SEO
+URL: http://thesis-seo-bloggertemplate.blogspot.com
+*/
+
+body#layout ul{list-style-type:none;list-style:none}
+body#layout ul li{list-style-type:none;list-style:none}
+body#layout #outer-wrapper{width:950px}
+body#layout #header-wrapper{width:950px}
+body#layout #header-1{float:left;width:250px;margin:35px;}
+body#layout #header-2{float:right;width:450px;overflow:hidden}
+body#layout #header-2 img{float:right;width:450px}
+body#layout .header .widget{float:right;width:470px}
+
+#outer-wrapper{width:900px;margin:auto;overflow:hidden;box-shadow: 0 0 1px #ffffff;}
+#article{width:600px;overflow:hidden;float:left;}
+#sidebar-wrapper{width:300px;overflow:hidden;float:right;}
+#header-wrapper{width:100%;}
+#header-1{float:left;max-width:300px;}
+#header-2{float:right;max-width:468px;}
+#footer-wrapper {background: #393939;width: 100%;overflow: hidden;padding: 10px;}
+#footer-1,#footer-2{width:30%;float:left}
+#footer-3{width:40%;float:right}
+
+/*-----Responsive Menu ----*/
+body {margin: 0px;}
+#menu {background: #374760;color: #fff;height: 40px;margin: 2px 0px 0px 5px;width: 99%;}
+#menu ul,#menu li{margin:0 auto;padding:0 0;list-style:none}
+#menu ul{height:45px;width:100%}
+#menu li{float:left;display:inline;position:relative;font:1em 'Marcellus SC', serif;text-transform: none;}
+#menu a{display: block;line-height: 40px;padding: 0 14px;text-decoration: none;color: #FFF;}
+#menu li a:hover{color:#fff;-webkit-transition: all .1s ease-in-out;-moz-transition: all .1s ease-in-out;-ms-transition: all .1s ease-in-out;-o-transition: all .1s ease-in-out;transition: all .1s ease-in-out;
+background: #3cc091;}
+#menu input{display:none;margin:0 0;padding:0 0;width:80px;height:30px;opacity:0;cursor:pointer}
+#menu label{font:bold 30px 'Marcellus SC', serif;display:none;width:35px;height:36px;line-height:36px;text-align:center}
+#menu label span{font-size:16px;position:absolute;left:35px}
+#menu ul.menus{height: auto;overflow: hidden;width: 170px;background: #fafafa;position: absolute;z-index: 99;display: none;}
+#menu ul.menus li{display: block;width: 100%;font:normal 0.9em 'Marcellus SC', serif;text-transform: none;border-bottom: 1px dotted #ccc;}
+#menu a.home {background:#37b185;padding:0px}
+#menu ul.menus a{color: #777;line-height: 35px;}
+#menu li:hover ul.menus{display:block}
+#menu ul.menus a:hover{background: #3cc091;color: #FFF;-webkit-transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;-ms-transition: all .1s ease-in-out;-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;}
+
+@media screen and (max-width: 800px){
+#menu{position:relative}
+#menu ul{background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+#menu ul.menus{width:100%;position:static;padding-left:20px}
+#menu li{display:block;float:none;width:auto; font:normal 0.9em 'Marcellus SC', serif;}
+#menu input,#menu label{position:absolute;top:0;left:0;display:block}
+#menu input{z-index:4}
+#menu input:checked + label{color:white}
+#menu input:checked ~ ul{display:block}
+}
+
+#related-posts{float:left;width:100%;border-top:1px solid #ddd;margin:5px 0 10px;padding:15px 0 10px}
+#related-posts .widget h2,#related-posts h3{font:18px 'Marcellus SC', serif;color:#000;text-transform:none;margin:0 0 10px;padding:0}
+#related-posts a{color:#48d;font:14px Arial, sans-serif;}
+#related-posts li{background:url(http://2.bp.blogspot.com/-EcBIblBtYTQ/TqALuRS_IzI/AAAAAAAAAx0/E-vzWTTOgXs/s1600/bullet-list.gif) no-repeat 0 10px;text-indent:0;line-height:1.3em;border-bottom:1px dotted #ccc;margin:0;padding:3px 0 8px 12px;list-style-image:none;}
+#related-posts a:hover{color:#c00;text-decoration:none}
+#related-posts .widget{margin:0;padding:0}
+#related-posts ul{list-style:none;margin:0;padding:0;list-style-image:none;}
+
+
+#navbar-iframe,.status-msg-wrap,.post-feeds,.feed-links,.Attribution,.date-header{display:none}
+/*! normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
+article,aside,details,figcaption,figure,footer,header,hgroup,section,summary{display:block}
+audio,canvas,video{display:inline}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+
+a:focus{outline:thin dotted}
+a:link,a:visited{transition:color .4s;outline:none;color:#1e598e;text-decoration:none}
+a:active,a:hover{text-decoration:none;outline:none}::-webkit-scrollbar{width:10px;background:#949494}
+::-webkit-scrollbar-thumb{background-color:#2a3542;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+b {font-weight:700}
+i {font-style: italic}
