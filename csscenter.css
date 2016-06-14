@@ -1,0 +1,121 @@
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:&#39;&#39;;content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+body{font-family:&#39;Libre Baskerville&#39;, serif;;font-size:100%;background:#fff url(http://www.cyberwarna.com/wp-content/themes/cyberwarna-themes/images/patterns/body-bg.png);color:#3c4032;margin:0;padding:0}
+td,th{vertical-align:top;text-align:left;font-size:14px;padding:3px 5px}
+.tr-caption{font-size:80%}
+
+#outer-wrapper{width:900px;overflow:hidden;border:0;
+border-color:#D4D4D4;
+box-shadow:0 0 10px #ccc;margin:auto;background:#fff;margin-top:15px;margin-bottom:15px}
+
+#article{width:600px;overflow:hidden;float:left}
+#sidebar-wrapper{width:300px;overflow:hidden;float:right}
+#header-wrapper{width:100%;overflow:hidden;background:#fff;padding:10px 0}
+#header-1{float: left;max-width: 320px;overflow: hidden;}
+#header-2{float:right;max-width:470px;overflow:hidden}
+#header-2 img{max-width:100%}
+.header .widget{padding:5px}
+.title {font-size: 35px;font:&#39;Marcellus SC&#39;, serif;margin: 0;font-weight: bold;}
+.description{font-size:13px;font:&#39;Libre Baskerville&#39;, serif;;margin-top:5px}
+
+.breadcrumbs{word-wrap:break-word;border-bottom:1px dotted #ddd;overflow:hidden;color:#777;margin:0;padding:10px;font-size: 12px;}.breadcrumbs a{color:#2F6EB6}
+.home-link, #blog-pager-newer-link, #blog-pager-older-link {color:#222 !important;display: block;}
+#blog-pager {text-align: center;margin: 10px 0;clear:both;overflow: hidden;padding:0 5px;}
+#blog-pager-newer-link {float: left;}
+#blog-pager-older-link {float: right;}
+#blog-pager a {color: #222;background: #fff;padding: 5px;font-size: 14px;display: inline;display: block;}
+#blog-pager a:active{background:#fff;}
+
+.post {padding: 0 8px 5px 1px;}
+.post-outer{}
+.post-body blockquote{background:#ddd;margin-left:2em;margin-right:2em;border-left:4px solid #55585c;font-style:normal;color:#555;padding:1em}
+#posts{float:left;width:65%;margin:0;padding:0}
+#box-posts{overflow:hidden;word-wrap:break-word;margin:0;padding:16px;}
+
+.thumb-post{float:left;width:140px;height:90px;background:#fafafc;border:1px solid #f1f1f1;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px;margin:2.5px 20px 10px 0;padding:5px}
+.post{background:#fff;margin:0 0 10px;padding:10px 5px 0 0}
+.post h1.post-title{font-size:25px;font-weight:700;margin:0 0 10px 5px}
+.post h2.post-title{font-size:18px;font-weight:800;margin:1px 2px 6px;padding-right:10px;}
+
+.post-body{font-family:Arial, Sans-serif;text-align:left;line-height:normal;margin:5px;padding:0 0 5px 0;font-size:13px;border-bottom:1px dotted #ddd;}
+.post-footer{color:black;text-align:right;font-style:normal;font-size:13px;margin:6px 0 0}
+.post-body ul li,.post-footer ul li{list-style-image:url(//2.bp.blogspot.com/-0E19QFl-m9g/UFakwjhWRFI/AAAAAAAAARA/npSmD-wpwSE/s1600/uncheck.gif)}
+.post-body ul li:hover,.post-footer ul li:hover{cursor:pointer;list-style-image:url(//2.bp.blogspot.com/-fHORcBgPqaQ/UFakwrduqNI/AAAAAAAAAQ8/NVoKEcGvHb8/s1600/check.gif)}
+
+.post h1.post-title, .post h1.post-title a {color: #444;font-weight: bold;font-size: 25px;font-family: Arial, sans-serif;line-height: normal;}
+.post h2.post-title a:link {color:#198dc9;font-weight: bold;font-size: 18px;font-family:Arial, sans-serif;line-height: normal;}
+.post h2.post-title a:visited {color:#639}
+.post h2.post-title a:hover {color:#c00}
+.post-footer a {font-size:12px}.post-info-icon{background-image :none;);background-repeat:no-repeat;}
+
+.post-info{display:block;margin: 6px 0 0px 100px;padding:3px 0;color:#999;line-height:1.6em;border-top:1px dotted #e2e2e2;border-bottom:1px dotted #dc322f;font-size:11px;overflow:hidden;}
+.post-info a{color:#999;}.post-info-icon{display:inline-block;float:left;margin:0 12px 0 0;}
+.post-info a:hover{color:#000;}.jam{background-position:0 -98px;height:16px;padding:0 0 0 1px}
+.Commentor{background-position:0 -132px;height:16px;padding:0 0 0 1px;}
+.label{background-position:0 -166px;height:16px;padding:0 0 0 1px;}
+.admin{background-position:0 1px;height:16px;padding:0 0 0 5px;}
+.tanggal{background-position:0 -32px;height:16px;padding:0 0 0 1px;}
+
+#blog-pager-newer-link{float:left}
+#blog-pager-older-link{float:right}.home{width:80px;text-align:center;margin:0 auto}
+#blog-pager{text-align:center;margin:5px;padding:5px}.status-msg-wrap,.status-msg-border{position:relative}
+
+.sidebar h2{background:#374760;color:#fff;font:18px &#39;Marcellus SC&#39;, serif;text-transform:none;font-weight:500;margin:12px 0 0;padding:5px 10px}
+.sidebar {color:#666;line-height:1.3em;border-top:none;font:11px &#39;Libre Baskerville&#39;, serif;}
+.sidebar li{line-height:1.3em;border-bottom:1px dashed #ddd;margin:0;padding:5px 0 4px}
+.sidebar .widget{background:#fff;margin:5px;padding:1px}
+.sidebar .widget-content{margin:0 auto;padding:0px}
+.sidebar a:link,.sidebar a:visited{font:bold 12px Arial, Sans-serif;;color:#555;text-decoration:none}
+.sidebar li a:hover{color:#015bb3}
+.sidebar ul{list-style:none;margin:0;padding:5px 0}
+.sidebar1 ul{list-style:none;margin:0;padding:0}
+.sidebar1 .widget{margin:0 auto;padding:0}
+
+#main{padding:5px;}
+#footer {
+    overflow: hidden;
+    width: 100%;
+    color: #9c9c9c;
+    font-size: 11px;
+    text-align: center;
+    background: none repeat scroll 0% 0% #484848;
+    padding: 15px 0px;
+    line-height: normal;
+}
+
+img{max-width:100%;height:auto}
+#footer a:hover{color:#ff9}
+#footer-wrapper {background: #393939;width: 100%;overflow: hidden;padding: 10px;}
+.footer-wid .widget{padding:5px}.footer-wid h3,.footer-wid h2{color:#fafafa;font-size:15pt;font-family:&#39;Marcellus SC&#39;, serif;margin:0 0 10px;font-weight:500}
+.footer-wid ul{list-style-type:none;margin:0;padding:0 10px 0 0}
+.footer-wid ul li{border-bottom:1px dotted #797979;margin:0;padding:5px 0}
+.footer-wid .widget-content{font-size:13px;overflow:hidden}
+
+#footer-1 {width:290px;float:left}
+#footer-2 {width:290px;float:left;padding-left:10px}
+#footer-3 {width:290px;float:right;padding-right:10px}
+#Label1 a {font-family:&#39;Libre Baskerville&#39;, serif;font-size:13px;margin:3px 0;padding:6px;text-transform:uppercase;}
+#Label1 a:hover{color:#fff}
+.footer .label-size{background:#444!important}
+.footer .label-size:hover{background:#666!important}
+.footer .label-size a{color:#eee!important}
+#footer a,.footer-wid a,.footer-wid{color:#999}
+
+.PopularPosts .item-thumbnail{float:left;margin:5px;padding:3px}
+.PopularPosts .item-thumbnail:hover{background:#3C4042}
+.PopularPosts .item-title{font-weight:700;}
+.PopularPosts .item-snippet{font-size:11px;color:#888;overflow:hidden;text-align:left}
+.PopularPosts ul li {padding:5px 10px}
+
+.post-body ol {
+list-style: none;
+list-style-type: decimal;
+}
+
+ol, ul {
+list-style: none;
+margin-left: 35px;
+}
+
+.quickedit{display:none}
